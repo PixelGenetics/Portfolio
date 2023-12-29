@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #212224;
+}
+
+@media screen and (max-width: 580px){
+
+    .main-div .information{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-div .information .inner-information{
+        background: #323639;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+        width: 435px;
+        padding-left: 32px;
+        border-radius: 20px;
+        gap: 20px;
+        color: #D1D3D7;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .main-div .information .inner-information h2{
+        font-size: 30px;
+    }
+
+    .main-div .information .inner-information p{
+        font-size: 14px;
+    }
+
+    .main-div .main-information .uni-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-div .network{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-div .network .inner-network{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 435px;
+        height: 292px;
+        padding-left: 32px;
+        background: #323639;
+        border-radius: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: #D1D3D7;
+        margin-top: 20px;
+    }
+
+    .main-div .network ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        
+    }
+
+    .main-div .network ul li{
+        border: 1px solid#D1D3D7;
+        width: 371px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .main-div .network ul a{
+        text-decoration: none;
+        color: #D1D3D7;
+    }
+
+    .main-div .network ul li a svg{
+        padding-right: 5px;
+    }
+}
