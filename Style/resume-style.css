@@ -566,9 +566,15 @@ body{
         background: #FFC552;
     } 
 
+    .main-div{
+        margin-top: 60px;
+    }
+    
+
     .main-div .information{
         display: flex;
         justify-content: center;
+        
     }
 
     .main-div .info-net{
@@ -1059,8 +1065,8 @@ body{
     .main-div{
         display: flex;
         flex-direction: row;
+        margin-top: 60px;
     }
-
 
     .main-div .information{
         display: flex;
