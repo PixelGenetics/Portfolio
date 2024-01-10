@@ -19,7 +19,7 @@ body{
     header h2 {
         font-family: 'Carattere', cursive;
     }
-    
+
     header, a {
         color: #D1D3D7;
         text-decoration: none;
@@ -35,6 +35,7 @@ body{
     header input {
         display: none;
     }
+
     
     header div:nth-child(2) {
         display: flex;
@@ -56,9 +57,13 @@ body{
         cursor: pointer;
     }
     
-    header div:nth-child(2) a:first-child:hover {
-        transition: 0.5s;
-        background: #FFC552;
+    header div:nth-child(2) nav a:first-child{
+        color: #D1D3D7;
+        background: none;
+        height: 10px;
+        display: flex;
+        justify-content: right;
+        padding: 0;
     }
     
     header div nav {
@@ -139,11 +144,9 @@ body{
         margin-right: 79px;
     }
 
-    footer{
-        position: absolute;
+        footer{
+        position: relative;
         bottom: 0;
-        right: 0;
-        left: 0;
         padding: 10px; 
         display: flex;
         flex-direction: column;
@@ -166,9 +169,6 @@ body{
         flex-direction: row;
         text-decoration: none;
         gap: 50px;
-    }
-
-    footer ul li{
         list-style: none;
     }
 }
@@ -221,9 +221,13 @@ body{
         cursor: pointer;
     }
     
-    header div:nth-child(2) a:first-child:hover {
-        transition: 0.5s;
-        background: #FFC552;
+    header div:nth-child(2) nav a:first-child{
+        color: #D1D3D7;
+        background: none;
+        height: 10px;
+        display: flex;
+        justify-content: right;
+        padding: 0;
     }
     
     header div nav {
@@ -386,9 +390,13 @@ body{
         cursor: pointer;
     }
     
-    header div:nth-child(2) a:first-child:hover {
-        transition: 0.5s;
-        background: #FFC552;
+    header div:nth-child(2) nav a:first-child{
+        color: #D1D3D7;
+        background: none;
+        height: 10px;
+        display: flex;
+        justify-content: right;
+        padding: 0;
     }
     
     header div nav {
