@@ -479,7 +479,7 @@ header div nav ul li a:hover {
         .main-body .top-div{
             background: #323639;
             height: 294px;
-            width: 728px;
+            width: 428px;
             padding-top: 30px;
             border-radius: 20px;
         }
@@ -518,7 +518,7 @@ header div nav ul li a:hover {
         
         .main-body .top-div .f-stack .arrow{
             font-weight: 600;
-            padding-left: 367px;
+            padding-left: 100px;
         }
         
         .main-body .top-div .f-stack a:hover{
@@ -542,13 +542,15 @@ header div nav ul li a:hover {
     
         .main-body .mid-div{
             display: flex;
-            flex-direction: row;
-            column-gap: 20px;
+            flex-direction: column;
             font-size: 30px;
             font-family: 'Raleway', sans-serif;
             color: #D1D3D7;
-            font-size: 30px;
+            font-size: 24px;
             font-weight: bold;
+            height: 294px;
+            width: 428px;
+            row-gap: 20px;
         }
     
         .main-body .mid-div a{
@@ -562,19 +564,14 @@ header div nav ul li a:hover {
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 200px;
-            width: 229px;
             border-radius: 20px;
-    
         }
-    
+
         .main-body .mid-div .GitHub{
             background: #323639;
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 200px;
-            width: 229px;
             border-radius: 20px;
         }
     
@@ -583,8 +580,6 @@ header div nav ul li a:hover {
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 200px;
-            width: 229px;
             border-radius: 20px;
         }
     
@@ -597,7 +592,10 @@ header div nav ul li a:hover {
             color: #FFC552;
             transition: 0.5s;
         }
-    
+        .main-body .mid-div p{
+            margin-bottom: 16px;
+        }
+
         .main-body .mid-div a:hover{
             transition: 0.5s;
             box-shadow: 10px 10px 26px 3px rgba(0,0,0,0.5);
@@ -610,9 +608,10 @@ header div nav ul li a:hover {
             background: #323639;
             display: flex;
             flex-direction: column;
-            height: 190px;
-            width: 728px;
+            height: 294px;
+            width: 428px;
             border-radius: 20px;
+            margin-top: 255px;
         }
     
         .main-body .bottom-div:hover{
@@ -883,23 +882,26 @@ header div nav ul li a:hover {
         color: #D1D3D7;
         font-size: 30px;
         font-weight: bold;
+        width: 728px;
+        border-radius: 20px;
     }
 
     .main-body .mid-div a{
         text-decoration: none;
         color: #D1D3D7;
         border-radius: 20px;
+        width: inherit;
+        height: inherit;
     }
-
+    .main-body .mid-div p{
+        margin-bottom: 12px;
+    }
     .main-body .mid-div .resume{
         background: #323639;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 294px;
-        width: 359px;
         border-radius: 20px;
-
     }
 
     .main-body .mid-div .GitHub{
@@ -907,8 +909,6 @@ header div nav ul li a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 294px;
-        width: 359px;
         border-radius: 20px;
     }
 
@@ -917,8 +917,6 @@ header div nav ul li a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 294px;
-        width: 359px;
         border-radius: 20px;
     }
 
@@ -945,7 +943,7 @@ header div nav ul li a:hover {
         display: flex;
         flex-direction: column;
         height: 200px;
-        width: 1117px;
+        width: 728px;
         border-radius: 20px;
     }
 
