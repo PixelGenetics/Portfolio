@@ -7,7 +7,7 @@ body{
     background-color: #222325;
 }
 
-@media screen and (max-width: 844px){
+@media screen and (max-width: 480px){
 
     header {
     position: relative;
@@ -31,6 +31,9 @@ header div:first-child {
     position: relative;
 }
 
+header div:nth-child(2) a:nth-child(1){
+    display: none;
+}
 header input {
     display: none;
 }
@@ -117,8 +120,8 @@ header div nav ul li a:hover {
     
     .main-body .top-div{
         background: #323639;
-        height: 254px;
-        width: 435px;
+        height: 314px;
+        width: 235px;
         padding-top: 30px;
         border-radius: 20px;
     }
@@ -126,24 +129,37 @@ header div nav ul li a:hover {
     .main-body .top-div ul{
         display: flex;
         flex-direction: column;
-        margin-left: 32px;
-        gap: 20px;
+        margin: 0 12px;
+        row-gap: 40px;
+    }
+
+    .main-body .top-div ul h2{
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
     }
 
     .main-body .top-div .f-stack{
         display: flex;
         column-gap: 115px;
     }
-
+    .main-body .top-div ul li img{
+        border: 2px solid #D1D3D7;;
+        display: flex;
+        margin-left: 46px;
+    }
     .main-body .top-div img{
         height: 110px;
         width: 110px;
         border-radius: 200px;
+        display: flex;
+        justify-content: center;
     }
     
     .main-body .top-div ul li p{
         font-family: 'Raleway', sans-serif;
-        font-size: 16px;
+        font-size: 12px;
+        margin-left: 16px;
     }
 
     .main-body .top-div .f-stack a{
@@ -183,52 +199,61 @@ header div nav ul li a:hover {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
-        font-size: 30px;
         font-family: 'Raleway', sans-serif;
         color: #D1D3D7;
         font-size: 30px;
+        height: 314px;
+        width: 235px;
     }
 
     .main-body .mid-div a{
         text-decoration: none;
         color: #D1D3D7;
         border-radius: 20px;
+        font-size: 16px;
     }
 
     .main-body .mid-div .resume{
         background: #323639;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        height: 124px;
-        width: 435px;
         border-radius: 20px;
+        /* height: 124px;
+        width: 435px;
+        border-radius: 20px; */
 
     }
 
     .main-body .mid-div .GitHub{
         background: #323639;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        height: 124px;
-        width: 435px;
         border-radius: 20px;
+        /* height: 124px;
+        width: 435px;
+        border-radius: 20px; */
     }
 
     .main-body .mid-div .SideQuests{
         background: #323639;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        height: 124px;
-        width: 435px;
         border-radius: 20px;
+        /* height: 124px;
+        width: 435px;
+        border-radius: 20px; */
     }
-
+    .main-body .mid-div p{
+        display: flex;
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
     .main-body .mid-div svg{
         display: flex;
-        margin: 32px;
+        margin-top: 18px;
     }
 
     .main-body .mid-div svg:hover{
@@ -248,9 +273,10 @@ header div nav ul li a:hover {
         background: #323639;
         display: flex;
         flex-direction: column;
-        height: 268px;
-        width: 435px;
+        height: 414px;
+        width: 235px;
         border-radius: 20px;
+        margin-top: 130px;
     }
 
     .main-body .bottom-div:hover{
@@ -340,7 +366,7 @@ header div nav ul li a:hover {
 
 }    
 
-@media screen and (min-width: 845px) and (max-width:1182px){
+@media screen and (min-width: 481px) and (max-width:1024px){
         
         
     header {
@@ -675,7 +701,7 @@ header div nav ul li a:hover {
 
 }
 
-@media screen and (min-width: 1183px){
+@media screen and (min-width: 1025px){
 
     
     header {
