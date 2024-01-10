@@ -7,7 +7,7 @@ body{
     background: #212224;
 }
 
-@media screen and (max-width: 844px){
+@media screen and (max-width: 480px){
 
         
     header {
@@ -53,6 +53,10 @@ body{
         border-radius: 26px;
     }
     
+    header div:nth-child(2) a:first-child{
+        display: none;
+    }
+
     header div label {
         cursor: pointer;
     }
@@ -113,7 +117,7 @@ body{
     .main-div .information{
         display: flex;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .main-div .information .inner-information{
@@ -121,9 +125,9 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         height: 200px;
-        width: 435px;
-        padding-left: 32px;
+        width: 235px;
         border-radius: 20px;
         gap: 20px;
         color: #D1D3D7;
@@ -131,11 +135,13 @@ body{
     }
 
     .main-div .information .inner-information h2{
-        font-size: 30px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
     }
 
     .main-div .information .inner-information p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .main-div .network{
@@ -148,9 +154,8 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 435px;
-        height: 292px;
-        padding-left: 32px;
+        height: 192px;
+        width: 235px;
         background: #323639;
         border-radius: 20px;
         font-family: 'Raleway', sans-serif;
@@ -163,6 +168,7 @@ body{
         display: flex;
         flex-direction: column;
         gap: 12px;
+        width: inherit;
     }
 
     .main-div .network ul li:hover{
@@ -186,13 +192,14 @@ body{
 
     .main-div .network ul li{
         border: 1px solid#D1D3D7;
-        width: 371px;
-        height: 48px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 10px;
         font-weight: bold;
+        height: 30px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
 
@@ -222,9 +229,9 @@ body{
         align-items: center;
         color: #D1D3D7;
         height: 48px;
-        width: 435px;
+        width: inherit;
         font-family: 'Raleway', sans-serif;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: bold;
     }
 
@@ -244,12 +251,12 @@ body{
     }
 
     .main-div .main-information .inner-main-information ul h2{
-        font-size: 36px;
+        font-size: 26px;
         color: #FFC552;
     }
 
     .main-div .main-information .inner-main-information ul h3{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .main-div .main-information .inner-main-information ul h4{
@@ -278,7 +285,7 @@ body{
     }
 
     .main-div .main-information .inner-main-information-2 ul h2{
-        font-size: 36px;
+        font-size: 26px;
         color: #FFC552;
     }
 
@@ -312,7 +319,7 @@ body{
         height: 48px;
         width: 435px;
         font-family: 'Raleway', sans-serif;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: bold;
     }
 
@@ -329,7 +336,8 @@ body{
     }
 
     .main-div .web-dev ul h2{
-        font-size: 36px;
+        font-size: 26px;
+
         color: #FFC552;
     }
 
@@ -371,7 +379,8 @@ body{
         list-style: none;
     }
     .main-div .uni-info ul h2{
-        font-size: 36px;
+        font-size: 26px;
+
         color: #FFC552;
     }
     .main-div .uni-info ul h3{
@@ -401,9 +410,9 @@ body{
         align-items: center;
         color: #D1D3D7;
         height: 50px;
-        width: 435px;
+        width: inherit;
         font-family: 'Raleway', sans-serif;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: bold;
     }
 
@@ -438,7 +447,7 @@ body{
         height: 48px;
         width: 435px;
         font-family: 'Raleway', sans-serif;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: bold;
     }
 
@@ -473,7 +482,7 @@ body{
     }
 }
 
-@media screen and (min-width: 845px) and (max-width:1515px){
+@media screen and (min-width: 481px) and (max-width:1024px){
         
     
     header {
@@ -587,7 +596,7 @@ body{
 
     .main-div .info-net{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         gap: 20px;
     }
@@ -597,27 +606,33 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: baseline;
-        height: 292px;
+        align-items: center;
+        height: 192px;
         width: 366px;
-        padding-left: 32px;
         border-radius: 20px;
         gap: 20px;
         color: #D1D3D7;
         font-family: 'Raleway', sans-serif;
     }
 
+    .main-div .information .inner-information h2{
+        display: flex;
+    }
+
     .main-div .information .inner-information .inner-name-stack{
         padding-top: 32px;
+    }
+    .main-div .network{
+        display: flex;
+        justify-content: center;
     }
 
     .main-div .network .inner-network{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 366px;
         height: 292px;
-        padding-left: 32px;
         background: #323639;
         border-radius: 20px;
         font-family: 'Raleway', sans-serif;
@@ -866,7 +881,7 @@ body{
         align-items: center;
         color: #D1D3D7;
         height: 50px;
-        width: 435px;
+        width: inherit;
         font-family: 'Raleway', sans-serif;
         font-size: 48px;
         font-weight: bold;
@@ -944,7 +959,7 @@ body{
     }
 }
 
-@media screen and (min-width:1516px){
+@media screen and (min-width: 1025px){
 
     header {
         position: relative;
