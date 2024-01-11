@@ -7,7 +7,7 @@ body{
     background-color: #222325;
 }
 
-@media screen and (max-width: 844px){
+@media screen and (max-width: 480px){
     header {
         position: relative;
         margin: 10px 50px;
@@ -62,6 +62,10 @@ body{
         display: flex;
         justify-content: right;
         padding: 0;
+    }
+
+    header div:nth-child(2) a:nth-child(1){
+        display: none;
     }
     
     header div nav {
@@ -118,7 +122,7 @@ body{
     }
     
     .projects ul li{
-        width: 456px;
+        width: 256px;
         height: 92px;
         display: flex;
         justify-content: center;
@@ -140,14 +144,11 @@ body{
 
 }
 
-@media screen and (min-width: 845px) and (max-width:1515px){
-      
-    
+@media screen and (min-width: 481px) and (max-width:1024px){
     header {
         position: relative;
         margin: 10px 50px;
         padding: 20px 0px;
-
     }
     
     header h2 {
@@ -272,7 +273,7 @@ body{
 
 }
 
-@media screen and (min-width:1516px){
+@media screen and (min-width: 1025px){
     header {
         position: relative;
         margin: 10px 50px;
