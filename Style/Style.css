@@ -219,10 +219,6 @@ header div nav ul li a:hover {
         flex-direction: column;
         align-items: center;
         border-radius: 20px;
-        /* height: 124px;
-        width: 435px;
-        border-radius: 20px; */
-
     }
 
     .main-body .mid-div .GitHub{
@@ -231,9 +227,7 @@ header div nav ul li a:hover {
         flex-direction: column;
         align-items: center;
         border-radius: 20px;
-        /* height: 124px;
-        width: 435px;
-        border-radius: 20px; */
+
     }
 
     .main-body .mid-div .SideQuests{
@@ -242,9 +236,6 @@ header div nav ul li a:hover {
         flex-direction: column;
         align-items: center;
         border-radius: 20px;
-        /* height: 124px;
-        width: 435px;
-        border-radius: 20px; */
     }
     .main-body .mid-div p{
         display: flex;
